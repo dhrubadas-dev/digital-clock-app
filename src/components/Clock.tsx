@@ -2,6 +2,7 @@
 
 import { format } from "date-fns";
 import { useEffect, useState } from "react";
+import { SlidingNumber } from "./shadcnui/sliding-number";
 
 const Clock = () => {
 	const [hours, setHours] = useState(parseInt("00"));
